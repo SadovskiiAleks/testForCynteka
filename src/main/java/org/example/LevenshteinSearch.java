@@ -3,9 +3,7 @@ package org.example;
 public class LevenshteinSearch {
 
     public int levenstain(String str1, String str2) {
-        // Массивы должны быть одинаковой длины,
-        // т.к. отражают две строки (или столбца)
-        // одной и той же таблицы (см. алгоритм расстояния Левенштейна)
+        //Пример алгоритма расстояния Левенштейна
 
         int[] Di_1 = new int[str2.length() + 1];
         int[] Di = new int[str2.length() + 1];

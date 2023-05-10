@@ -23,13 +23,8 @@ public class Compare {
 
     }
 
-
     @Override
     public String toString() {
         return readerTxt.getArrayOne().toString() + "\n" + readerTxt.getArrayTwo().toString();
-    }
-
-    public SearchComparison getSearchComparison() {
-        return searchComparison;
     }
 }

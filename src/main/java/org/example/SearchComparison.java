@@ -24,10 +24,8 @@ public class SearchComparison {
         }
 
         for (int i = 0; arrayTwo.size() > i; i++) {
-            // Перебор arrayTwo
 
             for (int j = 0; arrayOne.size() > j; j++) {
-                // Перебор arrayOne
                 String[] parts = arrayTwo.get(i).split(" ");
 
                 for (String s : parts) {

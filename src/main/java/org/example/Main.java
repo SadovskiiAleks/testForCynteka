@@ -6,7 +6,6 @@ public class Main {
                 "A:\\ReadAndSearch\\output\\output.txt");
 
         comparison.safeCompare();
-
         System.out.println("create!");
     }
 }
